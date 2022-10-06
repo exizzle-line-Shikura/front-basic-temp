@@ -4,13 +4,7 @@ var data = jsonData;
 <html>
 <!-- head -->
 <head>
-<% if (data.site) { -%>
-    <%- include('./_inc/_headCommon', {data: data}) %>
-<% } else if (data.special) { -%>
-    <%- include('./_inc/_head_special', {data: data}) %>
-<% } else { -%>
-    <%- include('./_inc/_head', {data: data}) %>
-<% } %>
+<%- include('./_inc/_head', {data: data}) %>
 </head>
 <!-- /head -->
 <body>
