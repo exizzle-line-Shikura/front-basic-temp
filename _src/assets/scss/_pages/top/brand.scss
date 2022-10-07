@@ -1,0 +1,10 @@
+.page-brand {
+    margin-top: 60px;
+    width: 100vw;
+    max-width: 110%;
+    display: flex;
+    justify-content: space-between;
+    &-img {
+        margin: 0 20px;
+    }
+}

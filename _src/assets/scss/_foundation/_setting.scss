@@ -16,6 +16,15 @@ html {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    opacity: 1;
+    transition: opacity .3s ease-out;
+    &:hover {
+        opacity: .5;
+    }
+}
+
 img {
     width: 100%;
     height: auto;  

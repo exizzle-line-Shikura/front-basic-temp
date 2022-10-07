@@ -1,0 +1,26 @@
+.page-business {
+    &-box {
+        box-sizing: border-box;
+        border: 1px solid #e6e6e6;
+        margin: 60px auto 0;
+        max-width: 960px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &-img {
+        width: 55%;
+    }
+    &-clm {
+        width: 45%;
+        padding: 40px;
+        background: #fff;
+    }
+    &-title {
+        font-size: 26px;
+    }
+    &-text {
+        margin-top: 15px;
+        font-size: 20px;
+        line-height: 1.8;
+    }
+}

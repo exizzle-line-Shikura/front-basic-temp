@@ -1,0 +1,28 @@
+.page-top {
+    &-sct {
+        padding: 60px 0;
+    }
+    &-inner {
+        max-width: 1180px;
+        margin: 0 auto;
+    }
+    &-title {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        background-image: linear-gradient(90deg,#a50002 0,#ffd0d1);
+        background-repeat: no-repeat;
+        background-size: 100% 10%;
+        background-position: bottom;
+        padding-bottom: 15px;
+    }
+    &-btn {
+        background: #333;
+        color: #fff;
+        display: block;
+        max-width: 340px;
+        margin: 40px auto 0;
+        padding: 15px 0;
+        text-align: center;
+    }
+}

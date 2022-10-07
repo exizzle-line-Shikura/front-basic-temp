@@ -1,0 +1,45 @@
+.page-news {
+    &-item {
+        max-width: 960px;
+        margin: 30px auto 0;
+    }
+    &-list {
+        width: 100%;
+        padding: 10px 0;
+        border-top: 1px solid #7a7a7a;
+        &:last-child {
+            border-bottom: 1px solid #7a7a7a;
+        }
+    }
+    &-link {
+        display: grid;
+        grid-template-columns: 230px 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 0px;
+    }
+    &-time {
+        display: flex;
+        justify-content: space-between;
+        height: 35px;
+    }
+    &-date {
+        padding: 5px;
+        height: 35px;
+    }
+    &-tag {
+        padding: 5px;
+        color: #fff;
+    }
+    &-text {
+        padding: 5px;
+    }
+}
+
+.event-tag {
+    background: #f00;
+}
+
+.news-tag {
+    background: #00f;
+}

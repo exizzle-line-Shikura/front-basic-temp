@@ -1,0 +1,40 @@
+.page-header {
+    position: relative;
+    @include media(pc) {
+        height: 90px;
+    }
+    &-sct {
+        position: fixed;
+        z-index: 10;
+        background: #f99;
+        @include media(pc) {
+            padding: 20px;
+            width: 100%;
+        }
+    }
+    &-inner {
+        @include media(pc) {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1180px;
+            margin: 0 auto;
+        }
+        @include media(sp) {
+            padding: 0;
+        }
+    }
+    &-menu {
+        @include media(pc) {
+            width: 55%;
+        }
+    }
+    &-item {
+        @include media(pc) {
+            display: flex;
+            height: 100%;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+}
