@@ -34,6 +34,13 @@
             "dir": "/brand/",
             "name": "index",
             "ja": "true"
+        },
+        {
+            "title": "お問い合わせ",
+            "description": "お問い合わせディスクリプション！",
+            "dir": "/contact/",
+            "name": "index",
+            "ja": "true"
         }
     ]
 }
