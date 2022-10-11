@@ -1,0 +1,46 @@
+.page-company {
+    &-sct {
+        padding: 60px 0;
+    }
+    &-inner {
+        max-width: 1180px;
+        margin: 0 auto;
+    }
+    &-title {
+        font-size: 34px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    &-content {
+        width: 75%;
+        margin: 45px auto 0;
+        padding: 0 30px;
+    }
+    &-table {
+        width: 100%;
+    }
+    &-th {
+        width: 25%;
+        font-weight: normal;
+        padding: 10px;
+        background: #f7f7f7;
+    }
+    &-td {
+        width: 75%;
+        padding: 10px;
+        border: 1px solid #f7f7f7;
+        span {
+            font-size: 12px;
+        }
+    }
+    &-catch {
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    &-text {
+        margin-top: 15px;
+        &:first-of-type {
+            margin-top: 0;
+        }
+    }
+}
