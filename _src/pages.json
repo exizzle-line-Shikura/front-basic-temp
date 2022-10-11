@@ -4,7 +4,15 @@
             "title": "TOP",
             "description": "TOPディスクリプション！",
             "dir": "/",
-            "name": "index"
+            "name": "index",
+            "ja": "true"
+        },
+        {
+            "title": "概要",
+            "description": "概要ディスクリプション！",
+            "dir": "/company/",
+            "name": "index",
+            "ja": "true"
         }
     ]
 }
