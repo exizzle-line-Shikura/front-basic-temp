@@ -34,6 +34,15 @@
     &-text {
         padding: 5px;
     }
+    &-clm {
+        margin-top: 55px;
+        &:first-of-type {
+            margin-top: 0;
+        }
+    }
+    &-gene {
+        font-size: 22px;
+    }
 }
 
 .event-tag {

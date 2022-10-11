@@ -13,6 +13,13 @@
             "dir": "/company/",
             "name": "index",
             "ja": "true"
+        },
+        {
+            "title": "新着情報",
+            "description": "新着情報ディスクリプション！",
+            "dir": "/news/",
+            "name": "index",
+            "ja": "true"
         }
     ]
 }

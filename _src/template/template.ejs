@@ -9,13 +9,21 @@ var data = jsonData;
 <!-- /head -->
 <body>
 <!-- header -->
-<%- include('./_inc/_header', {data: data}) %>
+<% if (data.ja) { -%>
+    <%- include('./_inc/_header', {data: data}) %>
+        <% } else { -%>
+    <%- include('./_inc/_header-en', {data: data}) %>
+<% } %>
 <!-- /header -->
 <!-- main -->
 <%- include('./_pages' + data.dir + data.name , {data: data}) %>
 <!-- /main -->
 <!-- footer -->
-<%- include('./_inc/_footer', {data: data}) %>
+<% if (data.ja) { -%>
+    <%- include('./_inc/_footer', {data: data}) %>
+        <% } else { -%>
+    <%- include('./_inc/_footer-en', {data: data}) %>
+<% } %>
 <!-- /footer -->
 </body>
 </html>
