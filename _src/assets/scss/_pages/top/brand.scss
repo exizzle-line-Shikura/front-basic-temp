@@ -1,10 +1,32 @@
 .page-brand {
-    margin-top: 60px;
-    width: 100vw;
-    max-width: 110%;
-    display: flex;
-    justify-content: space-between;
+    &-wrapper {
+        margin-top: 60px;
+        width: 100vw;
+        max-width: 110%;
+        display: flex;
+        justify-content: space-between;
+    }
     &-img {
         margin: 0 20px;
+    }
+    &-subtitle {
+        margin-top: 20px;
+        font-size: 24px;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        background-image: linear-gradient(90deg,#a50002 0,#ffd0d1);
+        background-repeat: no-repeat;
+        background-size: 100% 10%;
+        background-position: bottom;
+        &:first-of-type {
+            margin-top: 0;
+        }
+    }
+    &-clm04 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
     }
 }

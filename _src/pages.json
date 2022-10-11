@@ -22,9 +22,16 @@
             "ja": "true"
         },
         {
-            "title": "新着情報",
-            "description": "新着情報ディスクリプション！",
+            "title": "ニュース・イベント",
+            "description": "ニュース・イベントディスクリプション！",
             "dir": "/news/",
+            "name": "index",
+            "ja": "true"
+        },
+        {
+            "title": "ブランド",
+            "description": "ブランドディスクリプション！",
+            "dir": "/brand/",
             "name": "index",
             "ja": "true"
         }
