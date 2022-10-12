@@ -41,6 +41,22 @@
             "dir": "/contact/",
             "name": "index",
             "ja": "true"
+        },
+        {
+            "title": "タイトルタイトルタイトルタイトル01",
+            "description": "タイトルタイトルタイトルタイトル01ディスクリプション！",
+            "dir": "/info/0001/",
+            "name": "index",
+            "ja": "true",
+            "clm": "true"
+        },
+        {
+            "title": "タイトルタイトルタイトルタイトル02",
+            "description": "タイトルタイトルタイトルタイトル02ディスクリプション！",
+            "dir": "/info/0002/",
+            "name": "index",
+            "ja": "true",
+            "clm": "true"
         }
     ]
 }

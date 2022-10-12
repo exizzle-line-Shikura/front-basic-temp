@@ -17,6 +17,10 @@ var data = jsonData;
 <!-- /header -->
 <!-- main -->
 <%- include('./_pages' + data.dir + data.name , {data: data}) %>
+<% if (data.clm) { -%>
+    <%- include('./_inc/_info-clm', {data: data}) %>
+<% } else { -%>
+<% } %>
 <!-- /main -->
 <!-- footer -->
 <% if (data.ja) { -%>
