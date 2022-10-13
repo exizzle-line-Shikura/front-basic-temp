@@ -56,6 +56,18 @@
             background-size: 100%;
         }
     }
+    &-shop {
+        position: relative;
+        &::before {
+            position: absolute;
+            content: '';
+            top: 3px;
+            background-image: url(/assets/img/common/shop_icon.png);
+            background-size: 100%;
+            width: 30px;
+            height: 30px;
+        }
+    }
 }
 .twitter {
     &::before {
