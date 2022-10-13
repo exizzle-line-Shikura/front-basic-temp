@@ -1,22 +1,20 @@
 .page-news {
     &-item {
         max-width: 960px;
-        margin: 30px auto 0;
+        margin: 60px auto 0;
     }
     &-list {
         width: 100%;
         padding: 10px 0;
         border-top: 1px solid #7a7a7a;
-        &:last-child {
-            border-bottom: 1px solid #7a7a7a;
-        }
-    }
-    &-link {
         display: grid;
         grid-template-columns: 230px 1fr;
         grid-template-rows: 1fr;
         grid-column-gap: 30px;
         grid-row-gap: 0px;
+        &:last-child {
+            border-bottom: 1px solid #7a7a7a;
+        }
     }
     &-time {
         display: flex;
