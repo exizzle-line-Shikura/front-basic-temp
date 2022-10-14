@@ -28,9 +28,26 @@
     }
     &-banner {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-template-rows: 1fr;
-        grid-column-gap: 60px;
-        grid-row-gap: 0px;
+        grid-column-gap: 15px;
+        grid-row-gap: 20px;
+    }
+    &-shop {
+        max-width: 600px;
+        margin: auto;
+        &--text {
+            font-weight: bold;
+            font-size: 22px;
+            margin: 50px 0;
+            span {
+                color: #ff0004;
+            }
+        }
+        &--link {
+            display: block;
+            margin: auto;
+            width: 450px;
+        }
     }
 }
