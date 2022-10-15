@@ -68,6 +68,18 @@
             height: 30px;
         }
     }
+    &-world {
+        position: relative;
+        &::before {
+            position: absolute;
+            content: '';
+            top: 3px;
+            background-image: url(/assets/img/common/world-change.png);
+            background-size: 100%;
+            width: 30px;
+            height: 30px;
+        }
+    }
 }
 .twitter {
     &::before {
