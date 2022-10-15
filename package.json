@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "watch": "concurrently 'webpack-dev-server && --mode development --hot --inline' 'NODE_ENV=development && gulp'",
-    "build": "rm -rf ./dist/* && concurrently 'webpack --env.production' 'gulp build'"
+    "watch": "concurrently webpack-dev-server && --mode development --hot --inline NODE_ENV=development && gulp",
+    "build": "rm -rf ./dist/* && concurrently webpack --env.production && gulp build"
   },
   "license": "UNLICENSED",
   "devDependencies": {

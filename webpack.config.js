@@ -63,7 +63,7 @@ module.exports = env => {
       new FixStyleOnlyEntriesPlugin({extensions: ['scss', 'css']}),
       new MiniCssExtractPlugin({filename: '[name]'}),
     ],
-    devtool: env && env.production ? '' : 'source-map',
+    devtool: env && env.production ? '' : 'none',
     devServer: {
       contentBase: path.join(__dirname, 'dist/'),
       port: 8200,
