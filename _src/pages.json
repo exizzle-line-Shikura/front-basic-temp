@@ -57,6 +57,39 @@
             "name": "index",
             "ja": "true",
             "clm": "true"
+        },
+        {
+            "title": "タイトルタイトルタイトルタイトル03",
+            "description": "タイトルタイトルタイトルタイトル03ディスクリプション！",
+            "dir": "/info/0003/",
+            "name": "index",
+            "ja": "true",
+            "clm": "true"
+        },
+        {
+            "title": "タイトルタイトルタイトルタイトル04",
+            "description": "タイトルタイトルタイトルタイトル04ディスクリプション！",
+            "dir": "/info/0004/",
+            "name": "index",
+            "ja": "true",
+            "clm": "true"
+        },
+        {
+            "title": "タイトルタイトルタイトルタイトル05",
+            "description": "タイトルタイトルタイトルタイトル05ディスクリプション！",
+            "dir": "/info/0005/",
+            "name": "index",
+            "ja": "true",
+            "clm": "true"
+        },
+        {
+            "title": "タイトルタイトルタイトルタイトル06",
+            "description": "タイトルタイトルタイトルタイトル06ディスクリプション！",
+            "dir": "/info/0006/",
+            "name": "index",
+            "ja": "true",
+            "clm": "true",
+            "pickup": "false"
         }
     ]
 }
