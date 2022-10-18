@@ -72,7 +72,8 @@
             "dir": "/info/0004/",
             "name": "index",
             "ja": "true",
-            "clm": "true"
+            "clm": "true",
+            "pickup": "false"
         },
         {
             "title": "タイトルタイトルタイトルタイトル05",
@@ -80,7 +81,8 @@
             "dir": "/info/0005/",
             "name": "index",
             "ja": "true",
-            "clm": "true"
+            "clm": "true",
+            "pickup": "false"
         },
         {
             "title": "タイトルタイトルタイトルタイトル06",
