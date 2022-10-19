@@ -1,6 +1,9 @@
+import Parts from './parts/info.js';
+
 const app = {
     // 初期化
     init() {
+        this.info = new Parts();
     },
 };
 
