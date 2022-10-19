@@ -1,9 +1,9 @@
 const config = require('./config')
 const path = require('path')
-const webpack = require('webpack')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const globImporter = require('node-sass-glob-importer')
 const FixStyleOnlyEntriesPlugin = require('webpack-fix-style-only-entries')
+const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = env => {
   return {
@@ -61,7 +61,12 @@ module.exports = env => {
       new FixStyleOnlyEntriesPlugin({extensions: ['scss', 'css']}),
       new MiniCssExtractPlugin({filename: '[name]'}),
     ],
-    devtool: env && env.production ? '' : 'source-map',
+    optimization: {
+      minimize: true,
+      minimizer: [new TerserPlugin({
+        extractComments: false,
+      })],
+    },
     devServer: {
       contentBase: path.join(__dirname, 'dist/'),
       port: 8200,

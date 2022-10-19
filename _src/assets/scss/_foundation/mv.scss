@@ -1,0 +1,32 @@
+.mv-inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    &-title {
+        font-size: 26px;
+        text-align: center;
+    }
+    @include media(pc) {
+        padding: 0 65px;
+    }
+    @include media(sp) {
+        padding: 0;
+    }
+}
+
+.main-inner {
+    max-width: 1040px;
+    margin: 0 auto;
+    &-text {
+        margin-top: 20px;
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+    &-span {
+        font-size: 12px;
+    }
+}
+
+.main-title {
+    font-weight: bold;
+}

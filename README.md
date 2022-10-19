@@ -1,10 +1,21 @@
 ## 環境構築
+Node.js v16.17.1
+
+必要な開発モジュールをyarnでインストールする。
 - `yarn install` : モジュールインストール
 
-## コマンド
-- `yarn watch` : ローカルサーバ起動、watch開始
-- `yarn build`: EJS,SCSS,JSのビルド、画像圧縮
-
 ## コーディング
-template.ejsをテンプレとし、pages.jsonにてページ情報を設定し、
-最終的にビルドする事によって個別にhtmlを書き出す。
+
+_src配下のファイルで作業を実施する。dist配下は直接触らない。
+
+|- _src：編集ディレクトリ
+|-  dist：本番ディレクトリ
+
+template.ejsをコーティングのテンプレとし、pages.jsonにてページ情報を設定し、
+distをルートディレクトリとしている。
+
+## コマンド
+gulpとwebpackを使用して、簡易的な環境構築を実施している。
+
+- `yarn watch` : ローカルサーバ http://localhost:8200/ が起動、watch管理により_src配下のejs,scss,js全てを監視する。
+- `yarn build`: ejs,scss,jsのビルド、画像圧縮を行い、dist配下にhtml、css、jsファイルを書き出す。
