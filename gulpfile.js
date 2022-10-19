@@ -10,9 +10,9 @@ const fs = require('fs')
 const src = './_src'
 
 gulp.task('ejs', (done) => {
-    const jsonData = '_src/pages.json';
+    const jsonData = 'dist/_pages.json';
     const json = JSON.parse(fs.readFileSync(jsonData));
-    const pages = json.pages;
+    const pages = json;
     const template = '_src/template/template.ejs';
 
     for (let i = 0; i < pages.length; i++) {
