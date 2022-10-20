@@ -1,0 +1,42 @@
+[
+    {
+        "lang": "ja",
+        "date": "2022年12月10日",
+        "type": "イベント",
+        "typetag": "event-tag",
+        "text": "イベントテキストイベントテキスト",
+        "link": "https://oodd.jp/view/search?search_keyword=RAV+CROSS&search_price_low=&search_price_high=&search_category=&search_original_code="
+    },
+    {
+        "lang": "ja",
+        "date": "2022年12月9日",
+        "type": "イベント",
+        "typetag": "event-tag",
+        "text": "イベントテキストイベントテキスト",
+        "link": "http://vincedor-hakusan.com/"
+    },
+    {
+        "lang": "ja",
+        "date": "2022年11月19日",
+        "type": "イベント",
+        "typetag": "event-tag",
+        "text": "イベントテキストイベントテキスト",
+        "link": "http://vincedor-hakusan.com/"
+    },
+    {
+        "lang": "ja",
+        "date": "2022年10月17日",
+        "type": "ニュース",
+        "typetag": "news-tag",
+        "text": "ニューステキストニューステキストニューステキストニューステキスト",
+        "link": "http://vincedor-hakusan.com/"
+    },
+    {
+        "lang": "en",
+        "date": "2022.Nov.1st",
+        "type": "News",
+        "typetag": "news-tag",
+        "text": "Newstext Newstext Newstext Newstext Newstext Newstext",
+        "link": "http://vincedor-hakusan.com/"
+    }
+]
