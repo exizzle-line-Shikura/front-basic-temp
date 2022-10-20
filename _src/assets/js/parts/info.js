@@ -21,7 +21,7 @@ export default class Parts {
                                 json[i].title +
                             '</strong>' +
                         '</p>' + 
-                    '</a>';;
+                    '</a>';
                     Info += InfoParts;
                 }
                 else {}

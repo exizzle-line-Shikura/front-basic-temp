@@ -7,26 +7,26 @@ export default class Pickup {
         request.onreadystatechange = () => {
             if (request.readyState == 4 && request.status == 200) {
                 const json = JSON.parse(request.responseText);
-                const news = document.getElementById('news')
-                let News = '';
+                const pickup = document.getElementById('pickup')
+                let Pickup = '';
                 for (let i = 0; i < json.length; i++) {
                     if (json[i].pickup) {
-                    const NewsParts =
+                    const PickupParts =
                     '<a href="' +  json[i].dir + '" class="page-clm">' + 
                         '<div class="page-clm-img">' + 
-                            '<img src="' + json[i].thum + '" alt="">' + 
+                            '<img src="' + json[i].thum + '" alt="' + json[i].thumalt + '">' + 
                         '</div>' + 
                         '<p class="page-clm-text">' + 
                             '<strong>' +
                                 json[i].title +
                             '</strong>' +
                         '</p>' + 
-                    '</a>';;
-                    News += NewsParts;
+                    '</a>';
+                    Pickup += PickupParts;
                 } else {}
             }
-                if (news !== null){
-                    news.innerHTML = News;
+                if (pickup !== null){
+                    pickup.innerHTML = Pickup;
                 }
             }
         }
