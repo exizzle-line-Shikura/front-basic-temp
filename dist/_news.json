@@ -1,7 +1,8 @@
 [
     {
         "lang": "ja",
-        "date": "2022年12月10日",
+        "year": "2022年",
+        "date": "12月10日",
         "type": "イベント",
         "typetag": "event-tag",
         "text": "イベントテキストイベントテキスト",
@@ -9,7 +10,8 @@
     },
     {
         "lang": "ja",
-        "date": "2022年12月9日",
+        "year": "2022年",
+        "date": "12月9日",
         "type": "イベント",
         "typetag": "event-tag",
         "text": "イベントテキストイベントテキスト",
@@ -17,7 +19,8 @@
     },
     {
         "lang": "ja",
-        "date": "2022年11月19日",
+        "year": "2022年",
+        "date": "11月19日",
         "type": "イベント",
         "typetag": "event-tag",
         "text": "イベントテキストイベントテキスト",
@@ -25,7 +28,8 @@
     },
     {
         "lang": "ja",
-        "date": "2022年10月17日",
+        "year": "2022年",
+        "date": "10月17日",
         "type": "ニュース",
         "typetag": "news-tag",
         "text": "ニューステキストニューステキストニューステキストニューステキスト",
@@ -33,7 +37,8 @@
     },
     {
         "lang": "en",
-        "date": "2022.Nov.1st",
+        "year": "2022",
+        "date": "Nov 21th",
         "type": "News",
         "typetag": "news-tag",
         "text": "Newstext Newstext Newstext Newstext Newstext Newstext",
