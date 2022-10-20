@@ -62,6 +62,15 @@
     "pickup": "true"
     },
     {
+    "title": "タイトルタイトルタイトルタイトル04",
+    "description": "タイトルタイトルタイトルタイトル04ディスクリプション！",
+    "dir": "/info/0004/",
+    "name": "index",
+    "ja": "true",
+    "info": "true",
+    "thum": "https://placehold.jp/500x300.png"
+    },
+    {
     "title": "タイトルタイトルタイトルタイトル03",
     "description": "タイトルタイトルタイトルタイトル03ディスクリプション！",
     "dir": "/info/0003/",
@@ -72,20 +81,13 @@
     "pickup": "true"
     },
     {
-    "title": "タイトルタイトルタイトルタイトル04",
-    "description": "タイトルタイトルタイトルタイトル04ディスクリプション！",
-    "dir": "/info/0004/",
-    "name": "index",
-    "ja": "true",
-    "info": "true"
-    },
-    {
     "title": "タイトルタイトルタイトルタイトル05",
     "description": "タイトルタイトルタイトルタイトル05ディスクリプション！",
     "dir": "/info/0005/",
     "name": "index",
     "ja": "true",
-    "info": "true"
+    "info": "true",
+    "thum": "https://placehold.jp/500x300.png"
     },
     {
     "title": "タイトルタイトルタイトルタイトル06",
@@ -93,6 +95,7 @@
     "dir": "/info/0006/",
     "name": "index",
     "ja": "true",
-    "info": "true"
+    "info": "true",
+    "thum": "https://placehold.jp/500x300.png"
     }
 ]
