@@ -1,9 +1,11 @@
-import Parts from './parts/info.js';
+import Pickup from './parts/pickup.js';
+import Info from './parts/info.js';
 
 const app = {
     // 初期化
     init() {
-        this.info = new Parts();
+        this.pickup = new Pickup();
+        this.info = new Info();
     },
 };
 
