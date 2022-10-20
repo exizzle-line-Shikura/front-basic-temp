@@ -1,8 +1,7 @@
 [
     {
         "lang": "ja",
-        "year": "2022年",
-        "date": "12月10日",
+        "date": "2022年 12月10日",
         "type": "イベント",
         "typetag": "event-tag",
         "text": "イベントテキストイベントテキスト",
@@ -10,8 +9,7 @@
     },
     {
         "lang": "ja",
-        "year": "2022年",
-        "date": "12月9日",
+        "date": "2022年 12月9日",
         "type": "イベント",
         "typetag": "event-tag",
         "text": "イベントテキストイベントテキスト",
@@ -19,8 +17,7 @@
     },
     {
         "lang": "ja",
-        "year": "2022年",
-        "date": "11月19日",
+        "date": "2022年 11月19日",
         "type": "イベント",
         "typetag": "event-tag",
         "text": "イベントテキストイベントテキスト",
@@ -28,8 +25,23 @@
     },
     {
         "lang": "ja",
-        "year": "2022年",
-        "date": "10月17日",
+        "date": "2022年 10月17日",
+        "type": "ニュース",
+        "typetag": "news-tag",
+        "text": "ニューステキストニューステキストニューステキストニューステキスト",
+        "link": "http://vincedor-hakusan.com/"
+    },
+    {
+        "lang": "ja",
+        "date": "2021年 3月17日",
+        "type": "ニュース",
+        "typetag": "news-tag",
+        "text": "ニューステキストニューステキストニューステキストニューステキスト",
+        "link": "http://vincedor-hakusan.com/"
+    },
+    {
+        "lang": "ja",
+        "date": "2020年 8月2日",
         "type": "ニュース",
         "typetag": "news-tag",
         "text": "ニューステキストニューステキストニューステキストニューステキスト",
@@ -37,8 +49,7 @@
     },
     {
         "lang": "en",
-        "year": "2022",
-        "date": "Nov 21th",
+        "date": "2022.Nov.21th",
         "type": "News",
         "typetag": "news-tag",
         "text": "Newstext Newstext Newstext Newstext Newstext Newstext",
