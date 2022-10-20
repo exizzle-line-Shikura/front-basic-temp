@@ -12,19 +12,19 @@ const src = './_src'
 gulp.task('ejs', (done) => {
     const jsonData = 'dist/_pages.json';
     const json = JSON.parse(fs.readFileSync(jsonData));
-    const pages = json;
+    const pagesDir = json;
     const template = '_src/template/template.ejs';
 
-    for (let i = 0; i < pages.length; i++) {
+    for (let i = 0; i < pagesDir.length; i++) {
       gulp.src(template)
         .pipe(plumber({errorHandler: notify.onError('<%= error.message %>')}))
         .pipe(ejs({
-          jsonData: pages[i],
-          dir: pages[i].dir
+          jsonData: pagesDir[i],
+          dir: pagesDir[i].dir
         }))
         .pipe(rename((path) => {
-          path.dirname += pages[i].dir;
-          path.basename = pages[i].name;
+          path.dirname += pagesDir[i].dir;
+          path.basename = pagesDir[i].name;
           path.extname = '.html';
         }))
         .pipe(gulp.dest('./dist'));

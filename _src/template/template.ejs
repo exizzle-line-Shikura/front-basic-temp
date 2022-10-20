@@ -9,7 +9,7 @@ var data = jsonData;
 <!-- /head -->
 <body>
 <!-- header -->
-<% if (data.ja) { -%>
+<% if (data.lang == "ja") { -%>
     <%- include('./_inc/_header', {data: data}) %>
         <% } else { -%>
     <%- include('./_inc/_header-en', {data: data}) %>
@@ -23,7 +23,7 @@ var data = jsonData;
 <% } %>
 <!-- /main -->
 <!-- footer -->
-<% if (data.ja) { -%>
+<% if (data.lang == "ja") { -%>
     <%- include('./_inc/_footer', {data: data}) %>
         <% } else { -%>
     <%- include('./_inc/_footer-en', {data: data}) %>
