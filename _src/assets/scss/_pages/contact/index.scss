@@ -3,42 +3,27 @@
         width: 70%;
         margin: 0 auto;
     }
-    &-form {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-template-rows: 1fr;
-        grid-column-gap: 20px;
-        grid-row-gap: 25px;
-    }
     &-text {
-        padding: 5px;
-    }
-    &-input {
-        input,textarea {
-            height: 100%;
-            width: 100%;
-            padding: 5px;
+        line-height: 1.8;
+        padding-top: 15px;
+        &:first-of-type {
+            padding-top: 0;
         }
     }
-    &-label {
-        display: none;
-    }
-    &-btn {
-        margin-top: 35px;
-    }
-    &-submit {
-        display: block;
-        width: 180px;
-        margin: 0 auto;
-        background: #333;
-        color: #fff;
-        border: 1px solid #f6f6f6;
-        padding: 10px 0;
-        opacity: 1;
-        transition: opacity .3s ease-out;
-        &:hover {
-            cursor: pointer;
-            opacity: .5;
+    &-link {
+        color: #ff0000;
+        position: relative;
+        padding-left: 20px;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            border: 2px solid;
+            border-color: #ff0000 #ff0000 transparent transparent;
+            transform: rotate(45deg);
+            top: 15%;
+            left: -3px;
         }
     }
 }
