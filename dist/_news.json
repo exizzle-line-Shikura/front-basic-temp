@@ -48,6 +48,14 @@
         "link": "http://vincedor-hakusan.com/"
     },
     {
+        "lang": "ja",
+        "date": "2020年 5月23日",
+        "type": "イベント",
+        "typetag": "event-tag",
+        "text": "イベントテキストイベントテキストイベントテキストイベントテキストイベントテキスト",
+        "link": "http://vincedor-hakusan.com/"
+    },
+    {
         "lang": "en",
         "date": "2022.Nov.21th",
         "type": "News",
