@@ -1,7 +1,8 @@
 [
     {
         "lang": "ja",
-        "date": "2022年 12月10日",
+        "year": "2022年",
+        "date": "12月10日",
         "type": "イベント",
         "typetag": "event-tag",
         "text": "イベントテキストイベントテキスト",
@@ -9,7 +10,8 @@
     },
     {
         "lang": "ja",
-        "date": "2022年 12月9日",
+        "year": "2022年",
+        "date": "12月9日",
         "type": "イベント",
         "typetag": "event-tag",
         "text": "イベントテキストイベントテキスト",
@@ -17,7 +19,8 @@
     },
     {
         "lang": "ja",
-        "date": "2022年 11月19日",
+        "year": "2022年",
+        "date": "11月19日",
         "type": "イベント",
         "typetag": "event-tag",
         "text": "イベントテキストイベントテキスト",
@@ -25,7 +28,8 @@
     },
     {
         "lang": "ja",
-        "date": "2022年 10月17日",
+        "year": "2022年",
+        "date": "10月17日",
         "type": "ニュース",
         "typetag": "news-tag",
         "text": "ニューステキストニューステキストニューステキストニューステキスト",
@@ -33,7 +37,17 @@
     },
     {
         "lang": "ja",
-        "date": "2021年 3月17日",
+        "year": "2021年",
+        "date": "9月14日",
+        "type": "イベント",
+        "typetag": "event-tag",
+        "text": "ニューステキストニューステキストニューステキストニューステキスト",
+        "link": "http://vincedor-hakusan.com/"
+    },
+    {
+        "lang": "ja",
+        "year": "2021年",
+        "date": "3月17日",
         "type": "ニュース",
         "typetag": "news-tag",
         "text": "ニューステキストニューステキストニューステキストニューステキスト",
@@ -41,7 +55,8 @@
     },
     {
         "lang": "ja",
-        "date": "2020年 8月2日",
+        "year": "2020年",
+        "date": "8月2日",
         "type": "ニュース",
         "typetag": "news-tag",
         "text": "ニューステキストニューステキストニューステキストニューステキスト",
@@ -49,7 +64,17 @@
     },
     {
         "lang": "ja",
-        "date": "2020年 5月23日",
+        "year": "2020年",
+        "date": "6月12日",
+        "type": "ニュース",
+        "typetag": "news-tag",
+        "text": "ニューステキストニューステキストニューステキストニューステキスト",
+        "link": "http://vincedor-hakusan.com/"
+    },
+    {
+        "lang": "ja",
+        "year": "2020年",
+        "date": "5月23日",
         "type": "イベント",
         "typetag": "event-tag",
         "text": "イベントテキストイベントテキストイベントテキストイベントテキストイベントテキスト",
@@ -57,7 +82,8 @@
     },
     {
         "lang": "en",
-        "date": "2022.Nov.21th",
+        "year": "2022",
+        "date": "Nov.21th",
         "type": "News",
         "typetag": "news-tag",
         "text": "Newstext Newstext Newstext Newstext Newstext Newstext",
