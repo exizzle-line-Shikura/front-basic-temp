@@ -10,7 +10,7 @@ const fs = require('fs')
 const src = './_src'
 
 gulp.task('ejs', (done) => {
-    const jsonData = 'dist/_pages.json';
+    const jsonData = '_src/assets/json/_pages.json';
     const json = JSON.parse(fs.readFileSync(jsonData));
     const pagesDir = json;
     const template = '_src/template/template.ejs';
@@ -39,11 +39,19 @@ gulp.task('copy', (done) => {
   done();
 })
 
-gulp.task('watch', (done) => {
-  gulp.watch(src + '/template/**/*.ejs', gulp.series('ejs'));
-  gulp.watch(src + '/assets/img/**', gulp.series('copy'));
+gulp.task('json', (done) => {
+  gulp.src('_src/assets/json/**')
+    .pipe(plumber({errorHandler: notify.onError('<%= error.message %>')}))
+    .pipe(gulp.dest(`./dist/assets/json`));
   done();
 })
 
-gulp.task('default', gulp.series('ejs', 'copy', 'watch'))
-gulp.task('build', gulp.series('ejs', 'copy'))
+gulp.task('watch', (done) => {
+  gulp.watch(src + '/template/**/*.ejs', gulp.series('ejs'));
+  gulp.watch(src + '/assets/img/**', gulp.series('copy'));
+  gulp.watch(src + '/assets/json/**', gulp.series('json'));
+  done();
+})
+
+gulp.task('default', gulp.series('ejs', 'copy', 'json', 'watch'))
+gulp.task('build', gulp.series('ejs', 'copy', 'json'))

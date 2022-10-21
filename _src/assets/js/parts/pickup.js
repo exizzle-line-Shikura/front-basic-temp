@@ -2,7 +2,7 @@
 export default class Pickup {
     constructor() {
         const request = new XMLHttpRequest();
-        request.open('GET', '/_pages.json');
+        request.open('GET', '/assets/json/_pages.json');
         request.send();
         request.onreadystatechange = () => {
             if (request.readyState == 4 && request.status == 200) {

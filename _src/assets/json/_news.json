@@ -1,0 +1,92 @@
+[
+    {
+        "lang": "ja",
+        "year": "2022年",
+        "date": "12月10日",
+        "type": "イベント",
+        "typetag": "event-tag",
+        "text": "イベントテキストイベントテキスト",
+        "link": "https://oodd.jp/view/search?search_keyword=RAV+CROSS&search_price_low=&search_price_high=&search_category=&search_original_code="
+    },
+    {
+        "lang": "ja",
+        "year": "2022年",
+        "date": "12月9日",
+        "type": "イベント",
+        "typetag": "event-tag",
+        "text": "イベントテキストイベントテキスト",
+        "link": "http://vincedor-hakusan.com/"
+    },
+    {
+        "lang": "ja",
+        "year": "2022年",
+        "date": "11月19日",
+        "type": "イベント",
+        "typetag": "event-tag",
+        "text": "イベントテキストイベントテキスト",
+        "link": "http://vincedor-hakusan.com/"
+    },
+    {
+        "lang": "ja",
+        "year": "2022年",
+        "date": "10月17日",
+        "type": "ニュース",
+        "typetag": "news-tag",
+        "text": "ニューステキストニューステキストニューステキストニューステキスト",
+        "link": "http://vincedor-hakusan.com/"
+    },
+    {
+        "lang": "ja",
+        "year": "2021年",
+        "date": "9月14日",
+        "type": "イベント",
+        "typetag": "event-tag",
+        "text": "ニューステキストニューステキストニューステキストニューステキスト",
+        "link": "http://vincedor-hakusan.com/"
+    },
+    {
+        "lang": "ja",
+        "year": "2021年",
+        "date": "3月17日",
+        "type": "ニュース",
+        "typetag": "news-tag",
+        "text": "ニューステキストニューステキストニューステキストニューステキスト",
+        "link": "http://vincedor-hakusan.com/"
+    },
+    {
+        "lang": "ja",
+        "year": "2020年",
+        "date": "8月2日",
+        "type": "ニュース",
+        "typetag": "news-tag",
+        "text": "ニューステキストニューステキストニューステキストニューステキスト",
+        "link": "http://vincedor-hakusan.com/"
+    },
+    {
+        "lang": "ja",
+        "year": "2020年",
+        "date": "6月12日",
+        "type": "ニュース",
+        "typetag": "news-tag",
+        "text": "ニューステキストニューステキストニューステキストニューステキスト",
+        "link": "http://vincedor-hakusan.com/"
+    },
+    {
+        "lang": "ja",
+        "year": "2020年",
+        "date": "5月23日",
+        "type": "イベント",
+        "typetag": "event-tag",
+        "text": "イベントテキストイベントテキストイベントテキストイベントテキストイベントテキスト",
+        "link": "http://vincedor-hakusan.com/"
+    },
+    {
+        "lang": "en",
+        "year": "2022",
+        "date": "Nov.21th",
+        "type": "News",
+        "typetag": "news-tag",
+        "text": "Newstext Newstext Newstext Newstext Newstext Newstext",
+        "link": "http://vincedor-hakusan.com/"
+    }
+]

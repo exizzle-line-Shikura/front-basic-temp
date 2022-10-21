@@ -1,0 +1,114 @@
+[
+    {
+    "title": "トップ",
+    "description": "トップディスクリプション！",
+    "dir": "/",
+    "name": "index",
+    "lang": "ja"
+    },
+    {
+    "title": "TOP",
+    "description": "TOPdescription description description",
+    "dir": "/en/",
+    "name": "index",
+    "lang": "en"
+    },
+    {
+    "title": "概要",
+    "description": "概要ディスクリプション！",
+    "dir": "/company/",
+    "name": "index",
+    "lang": "ja"
+    },
+    {
+    "title": "新着情報",
+    "description": "新着情報ディスクリプション！",
+    "dir": "/info/",
+    "name": "index",
+    "lang": "ja"
+    },
+    {
+    "title": "ニュース・イベント",
+    "description": "ニュース・イベントディスクリプション！",
+    "dir": "/news/",
+    "name": "index",
+    "lang": "ja"
+    },
+    {
+    "title": "ブランド",
+    "description": "ブランドディスクリプション！",
+    "dir": "/brand/",
+    "name": "index",
+    "lang": "ja"
+    },
+    {
+    "title": "お問い合わせ",
+    "description": "お問い合わせディスクリプション！",
+    "dir": "/contact/",
+    "name": "index",
+    "lang": "ja"
+    },
+    {
+    "title": "タイトルタイトルタイトルタイトル01",
+    "description": "01ディスクリプション！",
+    "dir": "/info/0001/",
+    "name": "index",
+    "lang": "ja",
+    "info": "true",
+    "thum": "https://placehold.jp/500x300.png",
+    "thumAlt": "タイトルタイトルタイトルタイトル01",
+    "pickup": "true"
+    },
+    {
+    "title": "タイトルタイトルタイトルタイトル02",
+    "description": "02ディスクリプション！",
+    "dir": "/info/0002/",
+    "name": "index",
+    "lang": "ja",
+    "info": "true",
+    "thum": "https://placehold.jp/500x300.png",
+    "thumAlt": "タイトルタイトルタイトルタイトル02",
+    "pickup": "true"
+    },
+    {
+    "title": "タイトルタイトルタイトルタイトル04",
+    "description": "04ディスクリプション！",
+    "dir": "/info/0004/",
+    "name": "index",
+    "lang": "ja",
+    "info": "true",
+    "thum": "https://placehold.jp/500x300.png",
+    "thumAlt": "タイトルタイトルタイトルタイトル04"
+    },
+    {
+    "title": "タイトルタイトルタイトルタイトル03",
+    "description": "03ディスクリプション！",
+    "dir": "/info/0003/",
+    "name": "index",
+    "lang": "ja",
+    "info": "true",
+    "thum": "https://placehold.jp/500x300.png",
+    "thumAlt": "タイトルタイトルタイトルタイトル03",
+    "pickup": "true"
+    },
+    {
+    "title": "タイトルタイトルタイトルタイトル05",
+    "description": "05ディスクリプション！",
+    "dir": "/info/0005/",
+    "name": "index",
+    "lang": "ja",
+    "info": "true",
+    "thum": "https://placehold.jp/500x300.png",
+    "thumAlt": "タイトルタイトルタイトルタイトル05"
+    },
+    {
+    "title": "タイトルタイトルタイトルタイトル06",
+    "description": "06ディスクリプション！",
+    "dir": "/info/0006/",
+    "name": "index",
+    "lang": "ja",
+    "info": "true",
+    "thum": "https://placehold.jp/500x300.png",
+    "thumAlt": "タイトルタイトルタイトルタイトル06"
+    }
+]
