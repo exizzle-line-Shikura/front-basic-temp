@@ -1,0 +1,8 @@
+.wire-text {
+    color: #000;
+    padding-top: 20px;
+    font-size: 22px;
+    @include media(sp) {
+        font-size: 14px;
+    }
+}

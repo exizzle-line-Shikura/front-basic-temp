@@ -1,0 +1,15 @@
+.wire-wrapper {
+    margin: auto;
+    background-color: #fff;
+    @include media(pc) {
+        max-width: 960px;
+    }
+}
+
+#catch,#estimation {
+    background: #a7a7a7;
+}
+
+#main,#contact {
+    background: #616161;
+}
